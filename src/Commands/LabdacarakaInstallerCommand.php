@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Labdacaraka\LabdacarakaInstaller\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LabdacarakaInstallerCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'labdacaraka-installer';
 
     public $description = 'My command';
 

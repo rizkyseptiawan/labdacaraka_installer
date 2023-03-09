@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Labdacaraka\LabdacarakaInstaller;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use Labdacaraka\LabdacarakaInstaller\Commands\LabdacarakaInstallerCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class LabdacarakaInstallerServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('labdacaraka-installer')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_labdacaraka-installer_table')
+            ->hasCommand(LabdacarakaInstallerCommand::class);
     }
 }
