@@ -2,9 +2,9 @@
 
 namespace Labdacaraka\LabdacarakaInstaller;
 
+use Labdacaraka\LabdacarakaInstaller\Commands\LabdacarakaInstallerCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Labdacaraka\LabdacarakaInstaller\Commands\LabdacarakaInstallerCommand;
 
 class LabdacarakaInstallerServiceProvider extends PackageServiceProvider
 {
